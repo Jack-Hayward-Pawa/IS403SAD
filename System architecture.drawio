@@ -1,0 +1,141 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.4 Chrome/138.0.7204.97 Electron/37.2.1 Safari/537.36" version="28.0.4">
+  <diagram name="Page-1" id="2sXnPoedluPZfvO0uK3g">
+    <mxGraphModel dx="1111" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Presentation Tier (Client)&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;(User Interface and Interaction)&lt;/font&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="190" y="200" width="550" height="240" as="geometry">
+            <mxRectangle x="330" y="200" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-2" value="Student Portal&lt;div&gt;(Web Browser)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-1">
+          <mxGeometry x="20" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-3" value="Staff Dashboard&lt;div&gt;(Web Browser)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-1">
+          <mxGeometry x="220" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-4" value="Mobile App&lt;div&gt;(Android/IOS)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-1">
+          <mxGeometry x="410" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="KVqJsrPZawl5yC-qPxRM-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="240" as="sourcePoint" />
+            <mxPoint x="290" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.856;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="KVqJsrPZawl5yC-qPxRM-1" target="KVqJsrPZawl5yC-qPxRM-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="471" y="240" as="sourcePoint" />
+            <mxPoint x="469.5" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-8" value="HTTPS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-9" value="REST API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="510" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-10" value="JSON" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-11" value="APPLICATION TIER (Server)&lt;div&gt;(Business Logic, Processing &amp;amp; APIs)&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="190" y="590" width="550" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KVqJsrPZawl5yC-qPxRM-11" source="KVqJsrPZawl5yC-qPxRM-12" target="KVqJsrPZawl5yC-qPxRM-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-12" value="API Gateway and Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-11">
+          <mxGeometry x="40" y="60" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KVqJsrPZawl5yC-qPxRM-11" source="KVqJsrPZawl5yC-qPxRM-13" target="KVqJsrPZawl5yC-qPxRM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-13" value="Admission Services&lt;div&gt;(P2)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-11">
+          <mxGeometry x="40" y="130" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-14" value="Enrollment Service&lt;div&gt;(P1)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-11">
+          <mxGeometry x="235" y="130" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KVqJsrPZawl5yC-qPxRM-11" source="KVqJsrPZawl5yC-qPxRM-15" target="KVqJsrPZawl5yC-qPxRM-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-15" value="Dormitory Service&lt;div&gt;(P3)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-11">
+          <mxGeometry x="420" y="130" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-16" value="AES/Hecas Integration Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-11">
+          <mxGeometry x="40" y="290" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-17" value="Notification Service&lt;div&gt;(Email)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-11">
+          <mxGeometry x="420" y="280" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.018;entryY=0.591;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="KVqJsrPZawl5yC-qPxRM-11" source="KVqJsrPZawl5yC-qPxRM-16" target="KVqJsrPZawl5yC-qPxRM-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="400" as="sourcePoint" />
+            <mxPoint x="260" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="KVqJsrPZawl5yC-qPxRM-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="1080" as="sourcePoint" />
+            <mxPoint x="450" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.145;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KVqJsrPZawl5yC-qPxRM-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="440" as="sourcePoint" />
+            <mxPoint x="270" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-27" value="DATA TIER (Storage)&lt;div&gt;(Persistence and External Data)&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=70;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1080" width="550" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-34" value="Student Record" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-27">
+          <mxGeometry x="70" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-35" value="Billing records" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-27">
+          <mxGeometry x="70" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-36" value="Enrollment records" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-27">
+          <mxGeometry x="70" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-37" value="Dormitory allocation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-27">
+          <mxGeometry x="70" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-38" value="Staff records" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-27">
+          <mxGeometry x="70" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-39" value="Session Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-27">
+          <mxGeometry x="340" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-40" value="Primary Database (SQL)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-27">
+          <mxGeometry x="55" y="120" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-41" value="Available Room Counts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-27">
+          <mxGeometry x="340" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-42" value="Eligible Student List" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-27">
+          <mxGeometry x="340" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-43" value="Cache Layer (Redis)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-27">
+          <mxGeometry x="340" y="118" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-46" value="/" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-27">
+          <mxGeometry x="230" y="358" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-45" value="AES/HECAS API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-27">
+          <mxGeometry x="140" y="358" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-48" value="Database (Eligibility Rules)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KVqJsrPZawl5yC-qPxRM-27">
+          <mxGeometry x="235" y="358" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-28" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (Database Connection CRM)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1028" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVqJsrPZawl5yC-qPxRM-44" value="External Data Source" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1408" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
